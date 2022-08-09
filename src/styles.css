@@ -1,0 +1,350 @@
+.unselectable {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.cart-item-total .Polaris-Button {
+  background: #fcc832 !important;
+  border-radius: 3px !important;
+  border: 1px solid #ebba2f !important;
+  color: #212b36;
+  -webkit-box-shadow: 0 1px 0 rgba(22,29,37,.05) !important;
+  box-shadow: 0 1px 0 rgba(22,29,37,.05) !important;
+}
+
+.cart-item-total .Polaris-Button__Content {
+  font-weight: 700;
+  color: #212b36;
+}
+
+.ressource-list-header.cart {
+  cursor: pointer;
+}
+
+.cart-total-div > .Polaris-TextContainer, .ressource-list-header > .Polaris-TextContainer {
+  background-color: #6a50e7;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.cart-total-div > .Polaris-TextContainer > .Polaris-Heading, .ressource-list-header > .Polaris-TextContainer > .Polaris-Heading {
+  color: #fff;
+  margin: 0 !important;
+}
+
+.tab-header-right {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  margin-top: 0 !important;
+}
+
+.ressource-list-header.cart .Polaris-Icon {
+  margin: 0 0 0 2em;
+}
+
+.ressource-list-header > .Polaris-TextContainer .tab-text {
+  color: #fff;
+  margin: 0 !important;
+}
+
+.ressource-list-header.cart .Polaris-Icon path {
+  fill: #fff;
+}
+
+.cart-items .Polaris-Card__Section > * {
+  margin: .7em 0;
+}
+
+.cart-items .cart-item-top-section {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  flex-direction: row;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+}
+
+.cart-item-image-div {
+  min-height: 8em;
+  position: relative;
+  height: 100%;
+  width: 12em;
+  margin-right: 1em;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  overflow: hidden;
+  -webkit-justify-content: flex-start;
+  -moz-box-pack: start;
+  justify-content: flex-start;
+}
+.cart-item-image-div, .cart-item-image-text-div {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+}
+
+.cart-item-image.b {
+  display: block;
+  max-width: -webkit-calc(100% - 4px);
+  max-width: calc(100% - 4px);
+  max-height: -webkit-calc(100% - 4px);
+  max-height: calc(100% - 4px);
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+  object-fit: scale-down;
+  position: absolute;
+  -webkit-box-shadow: 2px 2px 3px 1px rgba(22,29,37,.219);
+  box-shadow: 2px 2px 3px 1px rgba(22,29,37,.219);
+  top: 0;
+  left: 0;
+}
+
+.cart-item-top-section > .Polaris-Button--iconOnly {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+}
+
+.cart-item-checkboxes > .Polaris-Choice {
+  margin-right: 2em;
+}
+
+.cart-items > div {
+  -webkit-box-shadow: inset 0 -1px 0 #dfe3e8;
+  box-shadow: inset 0 -1px 0 #dfe3e8;
+}
+
+.cart-item-text-checkbox-text-div {
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: inline-flex;
+}
+
+.cart-item-section .Polaris-Card, .cart-item-total .Polaris-Card {
+  padding: 1.6em;
+}
+
+.cart-item-section .Polaris-Card > .Polaris-Card__Header, .cart-item-total .Polaris-Card > .Polaris-Card__Header {
+  padding: 1em 0;
+}
+
+.cart-item-section .Polaris-Card > .Polaris-Card__Header > .Polaris-Heading, .cart-item-total .Polaris-Card .Polaris-Card__Section .Polaris-Heading {
+  font-size: 1.5em;
+}
+
+.cart-item-section .Polaris-Card__Section, .cart-item-total .Polaris-Card__Section {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  padding: 1.6em 0;
+}
+
+.cart-item-total .Polaris-Card .Polaris-Card__Section {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+  padding-bottom: 0;
+}
+
+.cart-item-section .Polaris-TextContainer {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+}
+.Polaris-Filters-ConnectedFilterControl__RightContainer.Polaris-Filters-ConnectedFilterControl__RightContainerWithoutMoreFilters {
+  display: none;
+}
+.ordered-description-row{
+  display: flex;
+}
+.ordered-description-row .ordered-description-row-image{
+  width: 35%;
+}
+.ordered-description-row .ordered-description-row-image img{
+  width: 200px;
+  height: 200px;
+}
+.ordered-description-row .ordered-description-row-content{
+  width: 65%;
+}
+.ordered-description-row-html{
+  color: #222;
+}
+.cart-item-section .Polaris-TextContainer{
+  width: 100%;
+}
+.description-wrap .description-wrap-description{
+  width: 70%;
+  display: inline-block;
+  text-align: left;
+}
+.description-wrap .description-wrap-price{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+.ordered-description-row-html{
+  margin-bottom: 10px;
+}
+.ordered-description-row-content .Polaris-Card {
+  background: #e2e2e2;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.view-card{
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.view-card .Polaris-Heading, .Polaris-Card .resource-list-header > .Polaris-TextContainer .Polaris-Heading{
+  margin-bottom: 1em;
+  line-height: 36px;
+}
+.view-card .resource-list-header > .Polaris-TextContainer, .Polaris-Card .resource-list-header > .Polaris-TextContainer{
+  background-color: #6a50e7;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  padding: 1.5em;
+}
+.view-card .resource-list-header > .Polaris-TextContainer, .view-card .resource-list-header > .Polaris-TextContainer .Polaris-Heading, .Polaris-Card .resource-list-header > .Polaris-TextContainer .Polaris-Heading{
+  color: #fff;
+  margin: 0 !important;
+}
+.view-card img{
+  height: auto;
+  width: 100%;
+  margin: auto auto 1.5em;
+}
+#previewActive svg path, #previewActive svg circle{
+  fill: rgb(252, 200, 50);
+}
+.Polaris-IndexTable button svg path, .Polaris-IndexTable button svg circle{
+  fill: rgb(106, 80, 231);
+}
+.collapsible-card-wrap{
+  margin-bottom: 20px;
+}
+.tab-header .Polaris-TextContainer{
+  background-color: #6a50e7;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  padding: 1.5em;
+  color: #fff;
+  margin: 0 !important;
+}
+.dashboard-table .Polaris-DataTable__Cell--header{
+  font-weight: 700;
+}
+#AppFrameNav{
+  position: unset;
+}
+#AppFrameMain{
+  padding-left: unset;
+}
+.navigation-wrap-tabs-parent > .Polaris-Card{
+  background-color: rgba(246, 246, 247, 1);
+}
+#AppFrameNav > .Polaris-Navigation{
+  background-color: rgba(255, 255, 255, 1);
+}
+.navigation-wrap-tabs-parent .documentation-text{
+  box-sizing: border-box;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 960px;
+  margin-top: 3rem;
+  padding-bottom: 8rem;
+}
+.documentation-text-second-wrap{
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-items: normal;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.documentation-text-layout-wrap{
+  box-sizing: border-box;
+  min-height: 1px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-left: 0%;
+  right: auto;
+  left: auto;
+}
+.ordered-description-review-text{
+  color: red;
+}
+.ordered-description-row-note {
+  color: red;
+  margin-bottom: 2%;
+}
+.approved-content{
+  text-align: center;
+  padding: 50px;
+}
+.pagination-wrap {
+  margin-top: 1.6rem;
+}
+.card-input-wrap {
+  margin-bottom: 20px;
+}
